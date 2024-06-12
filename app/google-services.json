@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "1064431942449",
+    "project_id": "whitelabel-store",
+    "storage_bucket": "whitelabel-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064431942449:android:45d18657f6ed2bdffb4e10",
+        "android_client_info": {
+          "package_name": "com.leandro.whitelabelstore.bike"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnqMAg0tp1kI1_nAOUNnKmnyM43E_sniQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064431942449:android:5a1590edf3258eb3fb4e10",
+        "android_client_info": {
+          "package_name": "com.leandro.whitelabelstore.bike.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnqMAg0tp1kI1_nAOUNnKmnyM43E_sniQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064431942449:android:9a645406e6bac96dfb4e10",
+        "android_client_info": {
+          "package_name": "com.leandro.whitelabelstore.car"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnqMAg0tp1kI1_nAOUNnKmnyM43E_sniQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064431942449:android:f3294ceba5c62474fb4e10",
+        "android_client_info": {
+          "package_name": "com.leandro.whitelabelstore.car.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnqMAg0tp1kI1_nAOUNnKmnyM43E_sniQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

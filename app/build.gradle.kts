@@ -43,6 +43,30 @@ android {
         dataBinding = true
     }
 
+    productFlavors {
+        flavorDimensions.addAll(arrayListOf("product", "side"))
+        create("bike") {
+            dimension = "product"
+            applicationIdSuffix = ".bike"
+            manifestPlaceholders["appName"] = "Bike"
+        }
+        create("car") {
+            dimension = "product"
+            applicationIdSuffix = ".car"
+            manifestPlaceholders["appName"] = "Car"
+
+        }
+        create("client") {
+            dimension = "side"
+            manifestPlaceholders["appNameSuffix"] = ""
+        }
+        create("admin") {
+            dimension = "side"
+            applicationIdSuffix = ".admin"
+            manifestPlaceholders["appNameSuffix"] = ".Admin"
+        }
+    }
+
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
